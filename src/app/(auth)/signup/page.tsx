@@ -60,7 +60,7 @@ const Signup = () => {
         'border-red-500/50': codeExchangeError,
         'text-red-700': codeExchangeError,
       }),
-    []
+    [codeExchangeError]
   );
 
   const form = useForm<z.infer<typeof SignUpFormSchema>>({

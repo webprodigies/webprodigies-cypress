@@ -81,7 +81,7 @@ const SubscriptionModal: React.FC<SubscriptionModalProps> = ({ products }) => {
                   key={product.id}
                 >
                   {product.prices?.map((price) => (
-                    <React.Fragment>
+                    <React.Fragment key={price.id}>
                       <b className="text-3xl text-foreground">
                         {formatPrice(price)} / <small>{price.interval}</small>
                       </b>
