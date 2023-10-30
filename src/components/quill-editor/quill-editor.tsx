@@ -395,43 +395,43 @@ const QuillEditor: React.FC<QuillEditorProps> = ({
       const contents = quill.getContents();
       const quillLength = quill.getLength();
       saveTimerRef.current = setTimeout(async () => {
-        if (contents && quillLength !== 1 && fileId) {
-          if (dirType == 'workspace') {
-            dispatch({
-              type: 'UPDATE_WORKSPACE',
-              payload: {
-                workspace: { data: JSON.stringify(contents) },
-                workspaceId: fileId,
-              },
-            });
-            await updateWorkspace({ data: JSON.stringify(contents) }, fileId);
-          }
-          if (dirType == 'folder') {
-            if (!workspaceId) return;
-            dispatch({
-              type: 'UPDATE_FOLDER',
-              payload: {
-                folder: { data: JSON.stringify(contents) },
-                workspaceId,
-                folderId: fileId,
-              },
-            });
-            await updateFolder({ data: JSON.stringify(contents) }, fileId);
-          }
-          if (dirType == 'file') {
-            if (!workspaceId || !folderId) return;
-            dispatch({
-              type: 'UPDATE_FILE',
-              payload: {
-                file: { data: JSON.stringify(contents) },
-                workspaceId,
-                folderId: folderId,
-                fileId,
-              },
-            });
-            await updateFile({ data: JSON.stringify(contents) }, fileId);
-          }
-        }
+        // if (contents && quillLength !== 1 && fileId) {
+        //   if (dirType == 'workspace') {
+        //     dispatch({
+        //       type: 'UPDATE_WORKSPACE',
+        //       payload: {
+        //         workspace: { data: JSON.stringify(contents) },
+        //         workspaceId: fileId,
+        //       },
+        //     });
+        //     await updateWorkspace({ data: JSON.stringify(contents) }, fileId);
+        //   }
+        //   if (dirType == 'folder') {
+        //     if (!workspaceId) return;
+        //     dispatch({
+        //       type: 'UPDATE_FOLDER',
+        //       payload: {
+        //         folder: { data: JSON.stringify(contents) },
+        //         workspaceId,
+        //         folderId: fileId,
+        //       },
+        //     });
+        //     await updateFolder({ data: JSON.stringify(contents) }, fileId);
+        //   }
+        //   if (dirType == 'file') {
+        //     if (!workspaceId || !folderId) return;
+        //     dispatch({
+        //       type: 'UPDATE_FILE',
+        //       payload: {
+        //         file: { data: JSON.stringify(contents) },
+        //         workspaceId,
+        //         folderId: folderId,
+        //         fileId,
+        //       },
+        //     });
+        //     await updateFile({ data: JSON.stringify(contents) }, fileId);
+        //   }
+        // }
         setSaving(false);
       }, 850);
       socket.emit('send-changes', delta, fileId);
