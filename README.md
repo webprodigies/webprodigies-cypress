@@ -2,8 +2,13 @@
 
 ![Application Logo](https://raw.githubusercontent.com/webprodigies/webprodigies-cypress/main/public/cover.png)
 
-🔴 Full Demo: [Demo](https://insta.openinapp.co/v3tbe)
-🟢 Full Video: [Full Video](https://youtu.be/A3l6YYkXzzg)
+
+| 🟢 Full Video | 🔴 Demo |
+|------------|------|
+| [Full Video](https://youtu.be/A3l6YYkXzzg) | [Demo](https://insta.openinapp.co/v3tbe) |
+
+- Full Demo: [Demo](https://insta.openinapp.co/v3tbe)
+-  Full Video: [Full Video](https://youtu.be/A3l6YYkXzzg)
 
 ### Features in this application.
 
