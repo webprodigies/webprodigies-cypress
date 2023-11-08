@@ -7,8 +7,10 @@
 |------------|------|
 | [Full Video](https://youtu.be/A3l6YYkXzzg) | [Demo](https://insta.openinapp.co/v3tbe) |
 
-- Full Demo: [Demo](https://insta.openinapp.co/v3tbe)
--  Full Video: [Full Video](https://youtu.be/A3l6YYkXzzg)
+## Get all the help you need
+Join the Community for FREE if you want to learn how to make money this year with websites! Share all bugs and solutions in the discord. Would love to collaborate and get to know talented developers like yourself. 
+[Discord](https://discord.gg/GG4wJkxh)
+
 
 ### Features in this application.
 
@@ -34,4 +36,5 @@
 - 📣 Optimistic UI
 - 📱 Responsive design
 
-https://github.com/vercel/next.js/issues/49373
+### Link to the thread with the issue we saw in layout.tsx
+[DynamicServerError: Dynamic server usage: cookies](https://github.com/vercel/next.js/issues/49373) 
