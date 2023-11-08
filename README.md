@@ -1,39 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Build a SaaS App with Realtime cursors, Nextjs 13, Stripe, Drizzle ORM, Tailwind, Supabase, Sockets
 
-## Getting Started
+![Application Logo](https://raw.githubusercontent.com/webprodigies/webprodigies-cypress/main/public/cover.png)
 
-First, run the development server:
+🔴 Full Demo: [Demo](https://insta.openinapp.co/v3tbe)
+🟢 Full Video: [Full Video](https://youtu.be/A3l6YYkXzzg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Features in this application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
+🤯 Real time cursors
+📝 Real time text selection
+⏱️ Real time database and collaboration 
+🟢 Real time presence 
+🗑️ Move to trash functionality
+😜 Custom emoji picket 
+🌙 Light mode dark mode
+🚨 Nextjs 13 app router
+🗺️ Creating free plan restrictions 
+💰 Take monthly payments
+📧 Custom email 2FA invitation 
+⚡️ Supabase Row level policy
+👨‍👨‍👧‍👦 Realtime Collaboration
+👾 Deployment
+🤑 Custom Rich text editor
+📚 Update profile settings 
+📍 Manage payments in a portal
+🔐 Custom Authentication
+✳️ Websockets 
+📣 Optimistic UI
+📱 Responsive design
 
 https://github.com/vercel/next.js/issues/49373
